@@ -123,17 +123,17 @@ x 13 y 13 z 13
 ```
 If some of the landmarks cannot be specified due to noise or partial occlusions, the coordinates and the labels of these landmarks must be removed. Note that the actual number of landmarks (second line of the file) must be adjusted accordingly in this case.
 
-##### Example
+### Example
 
 The example Run RMM.cmd learns a multilinear model for a small dataset of four identities in three expressions each. First, Run RMM.cmd compute the thin-plate splines for the faces present and second, it learns a multilinear model while jointly optimizing the vertex correspondence, estimating the missing shapes, and correcting the shapes of the corrupt shapes. Further, the semantic correspondence is optimized.
 
-##### Note
+### Note
 In the case a multilinear face model should be computed from noisy or incomplete data without optimizing the vertex correspondence, one can disable the switch OPTIMIZE VERTEX CORRESPONDENCE within the MDLHelper.cpp. If the semantic correspondence should not be optimized, one can disable the switch OPTIMIZE SEMANTIC CORRESPONDENCE within the MDLHelper.cpp. Running the model learning without vertex correspondence and semantic correspondence optimization might also be useful for large databases, as both optimizations are computationally expensive.
 
-##### License
+### License
 The source is provided for NON-COMMERCIAL RESEARCH PURPOSES only, and is provided as is WITHOUT ANY WARRANTY; without even the implied warranty of fitness for a particular purpose. The redistribution of the code is not permitted.
 
-##### Citing
+### Citing
 
 When using this code in a scientific publication, please cite 
 ```
