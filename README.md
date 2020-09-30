@@ -5,6 +5,8 @@ The provided program robustly learns a multilinear model from databases with mis
 <p align="center"> 
 <img src="img/RMM.png" width="60%">
 </p>
+Figure: Overview of our robust multilinear model (RMM) learning framework that is robust to missing data (purple), corrupt data(brown), wrong semantic correspondence (green), and inaccuratevertex correspondence (gray).
+
 
 ### Setup
 
