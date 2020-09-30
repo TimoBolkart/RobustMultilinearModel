@@ -3,7 +3,7 @@
 The provided program robustly learns a multilinear model from databases with missing data, corrupt data, wrong semantic correspondence, and inaccurate vertex correspondence as described in the scientific publication (CVPR 2016) [[paper](https://hal.inria.fr/hal-01290783/document)] [[video](https://hal.inria.fr/hal-01290783/file/SupplementaryVideo.avi)].
 
 <p align="center"> 
-<img src="img/RMM.png" width="50%">
+<img src="img/RMM.png" width="60%">
 </p>
 
 ### Setup
@@ -77,7 +77,7 @@ u_n v_n
 * The modelLmkIndexFile contains the indices of the landmarks used to compute the initial alignment to the corrupt data. These landmarks must correlate to the landmarks specified for the corrupt files. We recommend using following 13 landmarks:
 
 <p align="center"> 
-<img src="img/lmks.png" width="50%">
+<img src="img/lmks.png" width="30%">
 </p>
 
 * The curruptFileCollection contains the mapping of the geometry files that not present, but a corrupt face scan is specified. The name of the corrupt face scan must differ from the corresponding geometry file. The file is required in following format:
