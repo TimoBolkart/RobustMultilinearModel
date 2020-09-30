@@ -1,0 +1,26 @@
+# Specified 3D Landmark File
+12 landmarks:
+Inner left eye corner
+-2.24454 1.8022 81.4705
+Inner right eye corner
+19.4046 3.7996 81.5297
+Outer right eye corner
+49.9339 6.17558 73.9315
+Nose tip
+8.40246 -31.0267 104.853
+Left nose peak
+-5.84763 -33.295 82.8318
+Right nose peak
+23.9231 -33.8481 82.1944
+Subnasal point
+9.41531 -41.8271 91.0232
+Left mouth corner
+-13.2845 -59.9142 75.6119
+Right mouth corner
+31.7337 -58.2982 75.8914
+Upper lip outer middle
+9.05664 -53.7973 90.125
+Lower lip outer middle
+8.89419 -69.9841 83.9594
+Chin middle
+9.23194 -94.9061 66.3758
