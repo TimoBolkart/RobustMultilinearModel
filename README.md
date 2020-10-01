@@ -15,7 +15,8 @@ The provided code has dependencies on the following libraries:
 * Clapack (http://www.netlib.org/clapack/). Clapack must be compiled using Blas (USE BLAS WRAP must be enabled when using CMake). We recommend using Clapack 3.2.1.
 * Approximate Nearest Neighbor Library ANN (http://www.cs.umd.edu/ mount/ANN/). We recommend using ANN 1.1.2.
 
-To setup the provided code, use CMake and specify the required ITK, Clapack and ANN paths. Successfully compiling the project outputs a RMM.exe.
+To setup the provided code, use CMake and specify the required ITK, Clapack and ANN paths. Successfully compiling the project outputs a RMM.exe. The provided code has been developed and tested under Windows 7.
+
 
 ### Basic usage
 
